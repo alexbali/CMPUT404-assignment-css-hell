@@ -1,0 +1,221 @@
+body {
+    margin-right: 10%;
+    margin-left: 10%;
+    text-align: justify;
+    /* https://help.unsplash.com/en/articles/2612315-can-i-use-unsplash-photos-for-personal-or-commercial-projects#:~:text=The%20photos%20on%20Unsplash%20are,it%20is%20appreciated%20when%20possible. */
+    /* photographer: Olga Thelvart link: https://unsplash.com/photos/vS3idIiYxX0 */
+    background-image: url('images/olga-thelavart-vS3idIiYxX0-unsplash.jpg');
+}
+
+img {
+    border-radius: 14px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1em;
+}
+
+p {
+     font-family: 'Open Sans', sans-serif;
+     padding-bottom: 1%;
+}
+
+.pre-wrapper {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+pre {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3em;
+    position: relative;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    font-style:italic;
+    font-weight: 500;
+}
+
+fig {
+    align-items: left;
+}
+
+div.fig { display:block;
+    margin:0 auto;
+    text-align:center; }
+
+a:link {
+    color: rgb(51, 156, 197); 
+    text-decoration:none;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+a:visited {
+    color:rgb(134, 24, 185); text-decoration:none
+}
+a:hover {
+    /* color:red */
+    background-color: white;
+    border-bottom: solid black;
+}
+
+h1, h2, h3, h4, h5 {text-align: center; line-height: 1.5; margin-top: .5em; margin-bottom: .5em; font-family: 'Open Sans', sans-serif;}
+    
+h1 {
+    font-size: 300%;
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+    letter-spacing: 0.12em;
+    word-spacing: 0.2em;
+    text-indent: 0em;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 175%; 
+    margin-top: 2em; 
+    margin-bottom: 2em;
+    font-weight: 800;
+}
+h3 {
+    font-size: 150%; 
+    margin-top: 2em;
+    font-weight: 800;
+}
+h4 {font-size: 120%;}
+h5 {font-size: 110%;}
+
+.poem {
+    font-family: sans-serif;
+    font-style: oblique;
+    word-spacing: 0.2em;
+    text-align: left;
+    text-indent: 0;
+    line-height: 2;
+}
+
+.contents {
+    text-align: left;
+    font-size: 3em;
+    font-weight: 800;
+
+}
+
+.table-container {
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 100%;
+}
+
+.table{
+    align-content: left;
+}
+
+td {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.chapter > h3{
+    font-size: 2.5em;
+    font-weight: 800;
+    margin-bottom: 2em;
+}
+
+.indent-right {
+    padding-left: 1em;
+}
+
+p.letter {text-indent: 0%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1em;
+    margin-bottom: 1em; }
+
+p.noindent {text-indent: 0% }
+
+p.center  {text-align: center;
+     text-indent: 0em;
+     margin-top: 1em;
+     margin-bottom: 1em; }
+
+div.fig { display:block;
+    margin:0 auto;
+    text-align:center; }
+
+blockquote {
+    text-align: left;
+}
+
+/* h1.mb-left {
+    text-align: left;
+} */
+
+h1.mb-content {
+    color:black;
+    text-align: left;
+    margin-bottom: 1em;
+}
+
+p {
+    text-indent: 3em;
+}
+
+.toc {
+    font-size: 1em;
+    text-align: left;
+    text-indent: 0;
+    padding-bottom: .5%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.mynote {
+    font-family: cursive;
+    font-style: italic;
+    font-weight: 600;
+}
+
+pre.pre-header {
+    font-size: 1.2em;
+    font-weight: 800;
+    text-align: left;
+}
+
+.mb-table {
+    border-collapse: collapse;
+    /* margin: 4%; */
+    margin-top: 10%;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    box-shadow: 0 0 20px rgb(51, 156, 197);
+    font-weight: 600;
+    align-content: left;
+}
+
+.mb-table > tbody >tr {
+    margin: 1%;
+    border-bottom: solid 4px rgb(51, 156, 197);
+    text-align: left;
+}
+
+.toc > h2 {
+    margin-top: 50%;
+    text-align: left;
+    font-size: 200%;
+}
+
+.SC-content {
+    margin-top: 50%;
+    text-align: left;
+    size: 2em;
+    font-weight: 800;
+}
+
+.sc-table {
+    align-self: left;
+}
